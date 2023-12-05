@@ -1,0 +1,82 @@
+body, button, input, textarea {
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+.tab-container {
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem; /* Adjust this value as needed */
+    text-align: center; /* Center the heading if desired */
+    margin-top: 20px; /* Add some space at the top */
+    margin-bottom: -20px; /* Add some space at the bottom */
+  }
+/* Container for the tab buttons */
+.tab-buttons {
+    display: flex; /* Aligns buttons in a row */
+    justify-content: center; /* Center the buttons */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each tab button */
+  .tab-buttons button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-bottom: none; /* Removes the bottom border to blend with the content area */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px; /* Adds a small space between tabs */
+    border-top-left-radius: 5px; /* Rounded corners for the top of the tab */
+    border-top-right-radius: 5px;
+  }
+  
+  /* Removes spacing for the last button */
+  .tab-buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Style for the active tab to differentiate it */
+  .tab-buttons button.active {
+    background-color: #006659;
+    color: white;
+    border-color: #2ed5bf;
+  }
+  
+  /* General style for the tab content */
+  .tab-content {
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+  
+  
+  button {
+    background-color: #f0f0f0;
+    border: 1px solid #006659;
+    color:#006659;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+  
+  button:hover {
+    background-color: #006659;
+    color: white;
+  }
+  
+  button.active {
+    background-color: #bbb;
+  }
+  
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
